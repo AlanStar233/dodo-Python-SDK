@@ -1,0 +1,21 @@
+{
+	"type": 0,
+	"data": {
+		"eventBody": {
+			"dodoId": "254913173",
+			"messageBody": {
+				"content": "嘿嘿嘿嘿"
+			},
+			"messageId": "",
+			"messageType": 1,
+			"personal": {
+				"avatarUrl": "https://img.imdodo.com/upload/wechatAvatar/cdn/84CDCC7853AAD576036A9308AB35C17E_1660045203325.jpg",
+				"nickName": "Alan_极蓝星辰",
+				"sex": 1
+			}
+		},
+		"eventId": "",
+		"eventType": "1001",
+		"timestamp": 1660135119954
+	}
+}
