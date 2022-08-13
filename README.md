@@ -80,7 +80,7 @@
 
 ​	项目文件 -> [GetMemberInfo.py](./GetMemberInfo.py)
 
-​	解释文件 -> [GetMemberInfo.md](./docs/GetmemberInfo.md)
+​	解释文件 -> [GetMemberInfo.md](./docs/GetMemberInfo.md)
 
 ### 八、获取群成员NFT
 
