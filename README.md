@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-    <font size="20px"><b>dodo-Python-SDK</b></font>
+    # dodo-Python-SDK
 </div>
 
 <div align="center">一个希望所有人都能轻松上手的 SDK</div>
