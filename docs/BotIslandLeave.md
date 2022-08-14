@@ -19,7 +19,7 @@ import BotsIslandLeave
 
 # 需要预先获取或自定义 islandId
 islandId = 111111
-BotsIslandLeave.leave(islandId)
+BotsIslandLeave.leave(islandId=islandId)
 ```
 
 ​	**返回结果**：

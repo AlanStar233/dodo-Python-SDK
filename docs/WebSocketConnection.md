@@ -12,6 +12,10 @@
 
 ​	消息体解析已在项目文件中写出，可自行参照其他文档的参数编写逻辑使用。
 
+> **注：项目文件给出了message接口，可在on_message()方法中根据传回来的 json 解析出 messageType 从而分辨出不同的 Event**
+>
+> **注：有关 Event 可查看官方文档 -> [消息 Event](https://open.imdodo.com/dev/event/channel-text.html)**
+
 #### 16.2 on_error()
 
 ##### 16.2.1 描述
