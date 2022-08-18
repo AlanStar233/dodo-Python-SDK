@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-	
+
   ### 一个希望所有人都能轻松上手的 SDK
 
 </div>
@@ -138,8 +138,10 @@
 
 ------
 
-<div align="center">
-    <b>不出意外之后会写几个 demo 帮助各位理解...</b>
-    <br /><br />
-    <b>敬请期待</b>
-</div>
+### 十七、demo
+
+​	根据当前 SDK 做了个示例项目，不定期更新，点个 star 吧旁友们 orz
+
+​	↓↓↓
+
+​	[dodo-demo-Project](https://github.com/AlanStar233/dodo-demo-Project)
