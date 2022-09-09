@@ -22,6 +22,20 @@
 	<a href="https://github.com/AlanStar233/dodo-Python-SDK/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/AlanStar233/dodo-Python-SDK?style=social"></a>
 </div>
 
+> 由于个人原因<s>(绝赞网课中)</s>, 本项目可能会放缓与开放平台的更新同步, 但基础功能不影响使用, 如有好心人可发起PR。
+
+<details>
+<summary>更新<s>(咕咕)</s>日志</summary>
+
+### 2022-08-23
+
+基于开放平台更新 0.1.3 (暂时还没有)<s>已完成</s>新增接口接入
+
+- 新增 频道API-创建频道 (于[GetChannelInfo.py](./GetChannelIno.py))
+- 新增 频道API-编辑频道 (于[GetChannelInfo.py](./GetChannelIno.py))
+- 新增 频道API-删除频道 (于[GetChannelInfo.py](./GetChannelIno.py))
+</details>
+
 ## 项目简介
 
 ​	本项目基于 [**DoDo开放平台-内测平台**](https://open.imdodo.com) 提供的API接口进行再封装，提供了目前开放平台提供的所有接口能力。
