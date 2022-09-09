@@ -22,10 +22,10 @@
 	<a href="https://github.com/AlanStar233/dodo-Python-SDK/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/AlanStar233/dodo-Python-SDK?style=social"></a>
 </div>
 
-> 由于个人原因<s>(绝赞网课中)</s>, 本项目可能会放缓与开放平台的更新同步, 但基础功能不影响使用, 如有好心人可发起PR。
+> 提醒：由于个人原因<s>(绝赞网课中)</s>, 本项目可能会放缓与开放平台的更新同步, 但基础功能不影响使用, 如有好心人可发起PR。
 
 <details>
-<summary>更新<s>(咕咕)</s>日志</summary>
+<summary>更新日志</summary>
 
 ### 2022-08-23
 
