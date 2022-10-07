@@ -29,7 +29,7 @@
 
 ### 2022-08-23
 
-基于开放平台更新 0.1.3 (暂时还没有)<s>已完成</s>新增接口接入
+基于开放平台更新 0.1.3 已完成新增接口接入
 
 - 新增 频道API-创建频道 (于[GetChannelInfo.py](./GetChannelInfo.py))
 - 新增 频道API-编辑频道 (于[GetChannelInfo.py](./GetChannelInfo.py))
