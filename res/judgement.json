@@ -1,0 +1,65 @@
+{
+    "content": "",
+    "card": {
+      "type": "card",
+      "components": [
+        {
+          "type": "section",
+          "text": { "type": "dodo-md", "content": "**查询状态**\n查询到 **1** 条结果" }
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "paragraph",
+            "cols": 3,
+            "fields": [
+              { "type": "dodo-md", "content": "**用户名**\n匿名用户" },
+              { "type": "dodo-md", "content": "**UID**\n41286974" },
+              { "type": "dodo-md", "content": "**opid**\n46528522" }
+            ]
+          }
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "paragraph",
+            "cols": 3,
+            "fields": [
+              { "type": "dodo-md", "content": "**匿名状态**\n是" },
+              { "type": "dodo-md", "content": "**赞**\n2" },
+              { "type": "dodo-md", "content": "**踩**\n1" }
+            ]
+          }
+        },
+        { "type": "divider" },
+        {
+          "type": "section",
+          "text": {
+            "type": "dodo-md",
+            "content": "**众议观点**\n刷屏就是刷屏，如果只有1%的用户发重复的弹幕那剩下99%的应该是其他弹幕，但并没有，只存在少量不同的弹幕，所以，差，理由“跟风刷屏”影响观感"
+          }
+        },
+        {
+          "type": "section",
+          "text": { "type": "dodo-md", "content": "**发送时间**\n2022年08月28日 21:48:05" }
+        },
+        {
+          "type": "button-group",
+          "elements": [
+            {
+              "type": "button",
+              "interactCustomId": "交互自定义id1",
+              "click": {
+                "value": "https://www.bilibili.com/judgement/case-detail/AC2elb8UGG4x?hist=1",
+                "action": "link_url"
+              },
+              "color": "blue",
+              "name": "跳转至对应案件"
+            }
+          ]
+        }
+      ],
+      "theme": "blue",
+      "title": "[用户信息查询完成] - AC2xBNpRH48g"
+    }
+  }

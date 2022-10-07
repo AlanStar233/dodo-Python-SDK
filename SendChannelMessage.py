@@ -5,7 +5,7 @@ import MarkdownSupport
 
 # TODO: 频道消息支持Markdown
 # 官方文档要求入参 referencedMessageId, 但无用法
-# messageType  1: 文字信息  2: 图片信息  3: 视频信息
+# messageType  1: 文字信息  2: 图片信息  3: 视频信息  6: 卡片消息
 
 # 文字消息
 def send_text(channelId, messageType, content):
@@ -104,13 +104,53 @@ def send_video(channelId, messageType, video_url, cover_url, duration, size):
     # 返回 json
     return message_info
 
-# 编辑信息  当前只能编辑文字内容, 所以messageType 为 1
-def edit(messageId, messageType, content):
+# 卡片消息
+def send_card(channelId, CardBody):
+    URL = "https://botopen.imdodo.com/api/v1/channel/message/send"
+    public_headers = Public_Headers.Headers
+    messageType = 6
+
+    CardBody = json.loads(CardBody)
+
+    # debug
+    # print(content)
+    # print(card)
+
+    textData = {
+        "channelId": str(channelId),
+        "messageType": int(messageType),
+        "messageBody": CardBody
+    }
+
+    print(textData)
+
+    # 发送请求及 json 格式化处理
+    message_info = requests.post(URL, headers=public_headers, data=json.dumps(textData))
+    message_info = message_info.text
+    message_info = json.loads(message_info)
+
+    # 调试
+    print(message_info)
+
+    # 数据解析
+    status = str(message_info["status"])
+    status_message = message_info["message"]
+
+    # 信息ID
+    messageId = message_info["data"]["messageId"]
+
+    # 打印信息ID
+    print("\033[92m[Info]\033[0m 信息已发送", messageId)
+
+    # 返回 json
+    return message_info
+
+# TODO: 编辑信息  支持自动识别卡片消息
+def edit(messageId, content):
     URL = "https://botopen.imdodo.com/api/v1/channel/message/edit"
     public_headers = Public_Headers.Headers
     textData = {
         "messageId": messageId,
-        "messageType": messageType,
         "messageBody": {
             "content": content
         }
@@ -120,6 +160,9 @@ def edit(messageId, messageType, content):
     message_info = requests.post(URL, headers=public_headers, data=json.dumps(textData))
     message_info = message_info.text
     message_info = json.loads(message_info)
+
+    # debug
+    # print(message_info)
 
     # 数据解析
     status = str(message_info["status"])
@@ -212,7 +255,7 @@ if __name__ == "__main__":
     messageType_text = 1
     messageType_pic = 2
     messageType_video = 3
-    channelId = 849618
+    channelId = 905957
 
     messageId = 345612360456810496
     edit_content = MarkdownSupport.anti_spoilers(MarkdownSupport.bold("才不是要被改呢!"))
@@ -233,4 +276,14 @@ if __name__ == "__main__":
     # 贴表情测试
     # print(reaction_add(messageId=messageId, emoji_id=emoji_id))
     # 取消贴表情测试
-    print(reaction_remove(messageId=messageId, emoji_id=emoji_id, dodoId=dodoId))
+    # print(reaction_remove(messageId=messageId, emoji_id=emoji_id, dodoId=dodoId))
+    # 卡片消息测试
+    with open("./res/judgement.json", mode="r", encoding="utf-8") as f:
+        card_message = f.read()
+        # send_card(channelId=channelId, CardBody=card_message)
+    # print(card_message)
+    # print(json.loads(card_message))
+    # print(type(card_message))
+    # card_message = json.loads(card_message)
+    # print(type(card_message))
+    # send_card(channelId=channelId, messageType=6, Content="", CardBody=json.loads(card_message))

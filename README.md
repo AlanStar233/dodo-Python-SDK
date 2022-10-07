@@ -34,6 +34,11 @@
 - 新增 频道API-创建频道 (于[GetChannelInfo.py](./GetChannelInfo.py))
 - 新增 频道API-编辑频道 (于[GetChannelInfo.py](./GetChannelInfo.py))
 - 新增 频道API-删除频道 (于[GetChannelInfo.py](./GetChannelInfo.py))
+- 完善 文字频道API-发送消息，新增消息类型卡片消息，新增DoDo号字段 (于[GetChannelInfo.py](./GetChannelInfo.py))
+- (开发中) 完善 文字频道API-编辑消息，新增消息类型卡片消息，新增DoDo号字段 (于[GetChannelInfo.py](./GetChannelInfo.py))
+- 新增 身份组API-创建身份组 (于[RoleAction.py](./RoleAction.py))
+- 新增 身份组API-编辑身份组 (于[RoleAction.py](./RoleAction.py))
+- 新增 身份组API-删除身份组 (于[RoleAction.py](./RoleAction.py))
 </details>
 
 ## 项目简介
