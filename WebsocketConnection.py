@@ -1,4 +1,10 @@
 # -*- coding: UTF-8 -*-
+
+#  @Author:     AlanStar
+#  @Contact:    alan233@vip.qq.com
+#  @License:    MIT
+#  Copyright (c) 2022-2022
+
 import json
 import time
 from datetime import datetime

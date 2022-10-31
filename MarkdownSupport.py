@@ -1,3 +1,8 @@
+#  @Author:     AlanStar
+#  @Contact:    alan233@vip.qq.com
+#  @License:    MIT
+#  Copyright (c) 2022-2022
+
 # 粗体
 def bold(message):
     message = "**" + message + "**"

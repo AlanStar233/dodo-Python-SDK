@@ -1,3 +1,8 @@
+#  @Author:     AlanStar
+#  @Contact:    alan233@vip.qq.com
+#  @License:    MIT
+#  Copyright (c) 2022-2022
+
 import json
 from requests import Request, Session
 from urllib3 import encode_multipart_formdata

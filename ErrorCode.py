@@ -1,3 +1,8 @@
+#  @Author:     AlanStar
+#  @Contact:    alan233@vip.qq.com
+#  @License:    MIT
+#  Copyright (c) 2022-2022
+
 import json
 
 # 将传递来的状态码转化为对应消息返回 -> ./res/error_code.json
